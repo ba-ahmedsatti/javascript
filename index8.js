@@ -1,8 +1,8 @@
-var fname = 'Ahmed';
-var lname = 'Satti';
-var age = 35;
-var dob = '01-01-1990';
-var address = 'calgary, AB';
+const fname = 'Ahmed';
+const lname = 'Satti';
+const age = 35;
+const dob = '01-01-1990';
+const address = 'calgary, AB';
 console.log('first name: ', fname);
 console.log('last name: ', lname);
 console.log('age: ', age);

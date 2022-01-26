@@ -5,6 +5,6 @@ var dob = '01-01-1990';
 var address = 'calgary, AB';
 console.log(fname);
 console.log(lname);
-console.loga(age);
+console.log(age);
 console.log(dob);
 console.log(address);
