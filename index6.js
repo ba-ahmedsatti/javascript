@@ -1,10 +1,10 @@
 var fname = 'Ahmed';
 var lname = 'Satti';
 var age = 35;
-var dob = '12-10-1986';
+var dob = '01-01-1990';
 var address = 'calgary, AB';
-console.log(fname);
-console.log(lname);
-console.loga(age);
-console.log(dob);
-console.log(address);
+console.log('first name: ', fname);
+console.log('last name: ', lname);
+console.loga('age: ', age);
+console.log('date of birth: ', dob);
+console.log('address: ', address);
