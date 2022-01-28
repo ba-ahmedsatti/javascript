@@ -9,13 +9,23 @@ let result7 = number * 7;
 let result8 = number * 8;
 let result9 = number * 9;
 let result10 = number * 10;
-console.log('1 times 9 =' + ' ' + result);
-console.log('2 times 9 =' + ' ' + result2);
-console.log('3 times 9 =' + ' ' + result3);
-console.log('4 times 9 =' + ' ' + result4);
-console.log('5 times 9 =' + ' ' + result5);
-console.log('6 * 9 =' + ' ' + result6);
-console.log('7 * 9 =' + ' ' + result7);
-console.log('8 * 9 =' + ' ' + result8);
-console.log('9 * 9 =' + ' ' + result9)
-console.log('10 * 9 =' + ' ' + result10);
+console.log('9 times 1 equals' + ' ' + result);
+console.log('9 times 2 equals' + ' ' + result2);
+console.log('9 times 3 equals' + ' ' + result3);
+console.log('9 times 4 equals' + ' ' + result4);
+console.log('9 times 5 equals' + ' ' + result5);
+console.log('9 times 6 equals' + ' ' + result6);
+console.log('9 times 7 equals' + ' ' + result7);
+console.log('9 times 8 equals' + ' ' + result8);
+console.log('9 times 9 equals' + ' ' + result9)
+console.log('9 times 10 equals' + ' ' + result10);
+
+// for loop
+
+let myNumber=9;
+
+for (let i = 1; i < 11; i++) 
+{
+    let myResult = myNumber*i;
+    console.log(myNumber +" times " + i+ " equals " + myResult);
+};
