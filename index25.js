@@ -9,15 +9,15 @@
 // console.log(typeof undefinedVar); // undefined
 // console.log(typeof nullVar); // object
 
-let superHeroName ='Batman';
-let name ='Bruce Wayne';
+let superHeroName = 'Batman';
+let name = 'Bruce Wayne';
 let fly = false;
 let hasBatmobile = true;
 let life = 80;
 let freeTime = null;
 let array = [1, 2, 3, 4];
 
-console.log('Super Hero Name:',superHeroName);
+console.log('Super Hero Name:', superHeroName);
 console.log('Name:', name);
 console.log('Fly:', fly);
 console.log('Has Bat Mobile:', hasBatmobile);
