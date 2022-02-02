@@ -27,3 +27,6 @@ console.log('Transform: ', transform.toUpperCase());
 let transformLower = 'Cline sold the rights to publish the novel in June 2010, \n in a bidding war to the Crown Publishing Group (a division of Random House)].\n The book was published on August 16, 2011. An audiobook was released the same day; it was narrated by Wil Wheaton,\n who was mentioned briefly in one of the chapters.Ch. 20 In 2012, the book received an Alex Award from the Young Adult Library Services Association division of the American Library Association and won the 2012 Prometheus Award.';
 console.log(transformLower.toLowerCase());
 
+console.log(message.concat(transformLower, transform));
+console.log('The message has ' + message.length + ' characters long');
+
