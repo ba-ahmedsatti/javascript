@@ -18,6 +18,6 @@ const result1 = text.slice(1,20);
 
 console.log(result1);
 
-const result2 = text1.substring(3, 13);
+const result2 = text1.substring(3, 7);
 
 console.log(result2); // JavaScript
