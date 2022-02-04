@@ -162,7 +162,7 @@ strong {
   font-weight: 800;
   font-size: 22px;
   height: 200px;
-  weight: 267px;
+  width: 267px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -329,9 +329,6 @@ footer {
 .company-links-content {
   display: flex;
   flex-direction: column;
-}
-
-.company-contacts-content {
 }
 
 .footer-content_rights {

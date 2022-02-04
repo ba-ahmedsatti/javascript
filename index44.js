@@ -13,7 +13,11 @@ let result = text.slice(2);
 
 console.log (result);
 
-const text = 'JavaScript and Java are not the same';
-const result1 = text.slice(0, -20); // JavaScript
+const text1 = 'JavaScript and Java are not the same';
+const result1 = text.slice(1,20);
 
 console.log(result1);
+
+const result2 = text1.substring(3, 13);
+
+console.log(result2); // JavaScript
