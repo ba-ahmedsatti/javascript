@@ -4,15 +4,18 @@
 // Refactor the code so it match the new requirements:*
 // Replace if/ese statement for a conditional ternary operator
 
-const number = 11;
 
-const conditionalTernaryOperator = (number === 10) ? console.log(`${number} is an even number`) : console.log(`${number} is an odd number`);
+const number = 10;
 
 
-// if (number === 10)
-// {
-//     console.log(`${number} is an even number`);
-// } else
-// {
-//     console.log(`${number} is an odd number`);
-// }
+if (number%2 === 0)
+{
+    console.log(`${number} is an even number`);
+} else
+{
+    console.log(`${number} is an odd number`);
+}
+
+const numberRefactor = 11;
+
+const conditionalTernaryOperator = (numberRefactor%2 === 0) ? console.log(`${numberRefactor} is an even number`) : console.log(`${numberRefactor} is an odd number`);
