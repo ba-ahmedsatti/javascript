@@ -12,10 +12,10 @@
 let showUser = function(name = 'ahmed', age = 22, phone = '12345678', street = '101', postal = 'A1B-2C3', status = true)
 {
     console.log(`Your name: ${name}`);
-    console.log(` Your age: ${age}`);
-    console.log(` Your phone number: ${phone}`);
-    console.log(` Your street: ${street}`);
-    console.log(` Your postal code: ${postal}`);
+    console.log(`Your age: ${age}`);
+    console.log(`Your phone number: ${phone}`);
+    console.log(`Your street: ${street}`);
+    console.log(`Your postal code: ${postal}`);
     console.log(`Married status: ${status}`);
 }
 showUser();
